@@ -1,0 +1,96 @@
+/**  Style Général  **/
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+
+}
+
+/**  Sections  **/
+
+.SectionGauche{
+    background-color:#10657E ;
+    width: 30%;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.SectionDroite{
+    width: 70%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/**  SectionGauche  **/
+
+.SectionGauche header{
+    height: 300px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.SectionGauche .Cadre{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.SectionGauche article{
+    border-bottom: 2px solid black;
+    padding: 1.5rem 0rem;
+}
+
+.SectionGauche h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+}
+
+/**  SectionDroite  **/
+
+.SectionDroite header{
+    height: 300px;
+    
+    border-bottom: 2px solid #10657E;
+}
+
+.SectionDroite article{
+    border-bottom: 2px solid #10657E;
+    padding: 1.5rem 0rem;
+}
+
+.SectionDroite h1{
+    font-size: 3.5rem;
+
+}
+
+.SectionDroite h2{
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem 0;
+    text-transform: uppercase;
+}
+
+.SectionDroite h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    color: #10657E;
+}
+
+.SectionDroite li{
+    padding-bottom: 0.5rem;
+    
+}
+
+
+
+
